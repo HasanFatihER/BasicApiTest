@@ -1,13 +1,12 @@
 package basicApiExercises;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest {
+public class GetRequestHeroku {
     /* Api Test Url : https://restful-booker.herokuapp.com/booking/2
     Check
     -- Status code : 200
