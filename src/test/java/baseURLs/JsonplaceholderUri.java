@@ -1,12 +1,10 @@
 package baseURLs;
 
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.specification.RequestLogSpecification;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
-import org.junit.BeforeClass;
 
-public class basicApiExercisesUrls {
+public class JsonplaceholderUri {
  protected RequestSpecification spec;
 
    @Before

@@ -1,15 +1,13 @@
 package basicApiExercises;
 
-import baseURLs.basicApiExercisesUrls;
+import baseURLs.JsonplaceholderUri;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
-import org.junit.runner.Request;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class JsonPlaceholder extends basicApiExercisesUrls {
+public class JsonPlaceholder extends JsonplaceholderUri {
     @Test
     public void getRequest() {
         // String url="https://jsonplaceholder.typicode.com/todos/123"
